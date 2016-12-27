@@ -1,4 +1,4 @@
-#!/bin/bash
+set -e
 
 BUILD_DIR=$1
 METEOR_HOME=$BUILD_DIR/.meteor/local
