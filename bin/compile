@@ -38,10 +38,10 @@ install_node() {
 build() {
   (
     echo "Starting build phase for custom buildpack..."
-    cd $BUILD_DIR
-	  cd programs/server
-	  echo "Installing npm dependencies"
-	  npm install
+    cd $BUILD_DIR/programs/server
+    ls -lrt
+    echo "Installing npm dependencies"
+    npm install
   )
 }
 
